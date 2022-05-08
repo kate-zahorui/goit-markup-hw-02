@@ -1,0 +1,111 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+
+    --background-color: #E5E5E5;
+    --background-header-color: #ECECEC;
+    --background-dark-color: #2F303A;
+    --background-light-color: #F5F4FA;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--background-color);
+}
+
+.list {list-style: none;}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    background-color: var(--background-header-color);
+}
+
+.logo-header {
+    color: #000000;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    color: var(--title-text-color);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--accent-color);
+}
+
+header .contacts:hover, header .contacts:focus {
+    color: var(--accent-color);
+}
+
+
+/* Main Студия */
+/* Hero */
+.title-hero {
+    color: var(--white-color);
+}
+.button-hero {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+button {
+    color: var(--title-text-color);
+    background-color: var(--background-light-color);
+}
+
+button:hover, button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+/* Sections */
+
+.title {
+    color: var(--title-text-color);
+}
+
+/* Team */
+
+.team {
+    background-color: var(--background-light-color);
+}
+
+/* Main Портфолио */
+
+
+/* Foooter */
+
+footer {
+    background-color: var(--background-dark-color);
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+address {
+    color: var(--white-color);
+}
+
+footer .contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/* 
+font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;
+ */

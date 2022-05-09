@@ -4,7 +4,6 @@
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
 
-    --background-color: #E5E5E5;
     --background-header-color: #ECECEC;
     --background-dark-color: #2F303A;
     --background-light-color: #F5F4FA;
@@ -12,7 +11,7 @@
 
 body {
     color: var(--primary-text-color);
-    background-color: var(--background-color);
+    background-color: var(--white-color);
 
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -73,6 +72,10 @@ header .contacts {
 
 /* Main Студия */
 /* Hero */
+
+.hero {
+    background-color: var(--background-dark-color);
+}
 
 .title-hero {
     color: var(--white-color);
